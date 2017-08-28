@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorColl">#66CDAA</color>
+    <color name="colorSnow">#FFFAFA</color>
+    <color name="colorRosa">#F8B195</color>
+    <color name="colorRosaClaro">#E5A890</color>
+    <color name="colorAzul">#214660</color>
+    <color name="colorAzulEscuro">#20445D</color>
+
+
+
+
+</resources>

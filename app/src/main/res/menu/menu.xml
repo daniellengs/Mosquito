@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/cora"
+        android:title="Exemplo1"
+        app:showAsAction="always"/>
+    <!-- "Mark Favorite", should appear as action button if possible -->
+
+    <item
+        android:id="@+id/action_teste"
+        android:title="Sobre App"
+        app:showAsAction="ifRoom"/>
+
+    <!-- ifRoom  a ação é exibida como um botão se houver espaço na barra do
+    aplicativo para ele; Se não houver espaço suficiente, as ações em excesso
+    são enviadas para o menu de transbordamento-->
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/action_settings1"
+        android:title="Dicas"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings2"
+        android:title="Denuncias"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings3"
+        android:title="Casos"
+        app:showAsAction="never"/>
+
+    <!-- never  a ação sempre está listada no menu de transbordamento,
+    não exibido na barra do aplicativo.-->
+
+
+    <!--  Defina o atributo showAsAction para "ifRoom | collapseActionView" ou
+     "never | collapseActionView". O indicador collapseActionView indica como
+     exibir o widget quando o usuário não está interagindo com ele: se o widget
+     estiver na barra do aplicativo, o aplicativo deve exibir o widget como um
+     ícone. Se o widget estiver no menu de transbordamento,
+     o aplicativo deve exibir o widget como um item de menu. Quando o usuário
+     interage com a visualização de ação, ele se expande para preencher a barra de
+     aplicativos.-->
+ </menu>
