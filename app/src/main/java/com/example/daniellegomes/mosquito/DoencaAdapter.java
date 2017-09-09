@@ -58,7 +58,7 @@ public class DoencaAdapter extends BaseAdapter {
         if(convertView == null) // View nova, temos que criá-la
         {
             Log.d("NGVL", "View Nova => position: " + position);
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.activity_doencas, parent, false);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.item_doenca, parent, false);
             holder = new ViewHolder();
             holder.imgLogo = (ImageView) convertView.findViewById(R.id.imgLogo);
             holder.txtNome = (TextView) convertView.findViewById(R.id.txtName);

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:background="@drawable/back"
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.daniellegomes.mosquito.MenuActivity"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:baselineAligned="false"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/button1"
